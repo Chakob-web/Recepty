@@ -1,0 +1,147 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "S:\\\u0161kola\\ZPR\\Receptar\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|S:\\\u0161kola\\ZPR\\Receptar\\Receptar\\Migrations\\20250119190134_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Receptar\\Migrations\\20250119190134_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BE6E969-A07A-4ECA-BB93-82D8C6D070EC}|Receptar\\Receptar.csproj|s:\\\u0161kola\\zpr\\receptar\\receptar\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4BE6E969-A07A-4ECA-BB93-82D8C6D070EC}|Receptar\\Receptar.csproj|solutionrelative:receptar\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BE6E969-A07A-4ECA-BB93-82D8C6D070EC}|Receptar\\Receptar.csproj|s:\\\u0161kola\\zpr\\receptar\\receptar\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BE6E969-A07A-4ECA-BB93-82D8C6D070EC}|Receptar\\Receptar.csproj|solutionrelative:receptar\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BE6E969-A07A-4ECA-BB93-82D8C6D070EC}|Receptar\\Receptar.csproj|s:\\\u0161kola\\zpr\\receptar\\receptar\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BE6E969-A07A-4ECA-BB93-82D8C6D070EC}|Receptar\\Receptar.csproj|solutionrelative:receptar\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BE6E969-A07A-4ECA-BB93-82D8C6D070EC}|Receptar\\Receptar.csproj|s:\\\u0161kola\\zpr\\receptar\\receptar\\models\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BE6E969-A07A-4ECA-BB93-82D8C6D070EC}|Receptar\\Receptar.csproj|solutionrelative:receptar\\models\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BE6E969-A07A-4ECA-BB93-82D8C6D070EC}|Receptar\\Receptar.csproj|s:\\\u0161kola\\zpr\\receptar\\receptar\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BE6E969-A07A-4ECA-BB93-82D8C6D070EC}|Receptar\\Receptar.csproj|solutionrelative:receptar\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BE6E969-A07A-4ECA-BB93-82D8C6D070EC}|Receptar\\Receptar.csproj|s:\\\u0161kola\\zpr\\receptar\\receptar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BE6E969-A07A-4ECA-BB93-82D8C6D070EC}|Receptar\\Receptar.csproj|solutionrelative:receptar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20250119190134_InitialCreate.cs",
+              "DocumentMoniker": "S:\\\u0161kola\\ZPR\\Receptar\\Receptar\\Migrations\\20250119190134_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Receptar\\Migrations\\20250119190134_InitialCreate.cs",
+              "ToolTip": "S:\\\u0161kola\\ZPR\\Receptar\\Receptar\\Migrations\\20250119190134_InitialCreate.cs",
+              "RelativeToolTip": "Receptar\\Migrations\\20250119190134_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T19:01:34.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "S:\\\u0161kola\\ZPR\\Receptar\\Receptar\\Program.cs",
+              "RelativeDocumentMoniker": "Receptar\\Program.cs",
+              "ToolTip": "S:\\\u0161kola\\ZPR\\Receptar\\Receptar\\Program.cs",
+              "RelativeToolTip": "Receptar\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T18:44:26.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "S:\\\u0161kola\\ZPR\\Receptar\\Receptar\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Receptar\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "S:\\\u0161kola\\ZPR\\Receptar\\Receptar\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Receptar\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAkwCQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T18:34:30.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Review.cs",
+              "DocumentMoniker": "S:\\\u0161kola\\ZPR\\Receptar\\Receptar\\Models\\Review.cs",
+              "RelativeDocumentMoniker": "Receptar\\Models\\Review.cs",
+              "ToolTip": "S:\\\u0161kola\\ZPR\\Receptar\\Receptar\\Models\\Review.cs",
+              "RelativeToolTip": "Receptar\\Models\\Review.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T18:32:44.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Recipe.cs",
+              "DocumentMoniker": "S:\\\u0161kola\\ZPR\\Receptar\\Receptar\\Models\\Recipe.cs",
+              "RelativeDocumentMoniker": "Receptar\\Models\\Recipe.cs",
+              "ToolTip": "S:\\\u0161kola\\ZPR\\Receptar\\Receptar\\Models\\Recipe.cs",
+              "RelativeToolTip": "Receptar\\Models\\Recipe.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T18:32:24.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "S:\\\u0161kola\\ZPR\\Receptar\\Receptar\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Receptar\\Models\\ApplicationUser.cs",
+              "ToolTip": "S:\\\u0161kola\\ZPR\\Receptar\\Receptar\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "Receptar\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T18:32:02.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "S:\\\u0161kola\\ZPR\\Receptar\\Receptar\\appsettings.json",
+              "RelativeDocumentMoniker": "Receptar\\appsettings.json",
+              "ToolTip": "S:\\\u0161kola\\ZPR\\Receptar\\Receptar\\appsettings.json",
+              "RelativeToolTip": "Receptar\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-19T18:27:19.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
