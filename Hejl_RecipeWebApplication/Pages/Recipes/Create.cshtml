@@ -1,0 +1,42 @@
+﻿@page
+@model Hejl_RecipeWebApplication.Pages.Recipes.CreateModel
+
+@{
+    Layout = "_Layout";
+}
+
+<h2>Create Recipe</h2>
+
+<form method="post" asp-antiforgery="true">
+    @Html.AntiForgeryToken()
+    <div>
+        <label for="title">Název receptu:</label>
+        <input type="text" asp-for="Recipe.Title" id="title" name="Title" placeholder="Zadejte název receptu" />
+        <span asp-validation-for="Recipe.Title" class="text-danger"></span>
+    </div>
+    <div>
+        <label for="description">Popis:</label>
+        <textarea id="description" asp-for="Recipe.Description" name="Description" class="form-control" placeholder="Zadejte popis receptu"></textarea>
+        <span asp-validation-for="Recipe.Description" class="text-danger"></span>
+    </div>
+    <div>
+        <label for="ingredients">Ingredience:</label>
+        <textarea id="ingredients" asp-for="Recipe.Ingredients" name="Ingredients" class="form-control" placeholder="Zadejte ingredience"></textarea>
+        <span asp-validation-for="Recipe.Ingredients" class="text-danger"></span>
+    </div>
+    <div>
+        <label for="instructions">Postup:</label>
+        <textarea id="instructions" asp-for="Recipe.Instructions" name="Instructions" class="form-control" placeholder="Zadejte postup"></textarea>
+        <span asp-validation-for="Recipe.Instructions" class="text-danger"></span>
+    </div>
+    <div>
+        <label for="imageUrl">URL obrázku:</label>
+        <input type="text" id="imageUrl" asp-for="Recipe.ImageUrl" name="ImageUrl" class="form-control" placeholder="Vložte URL obrázku" />
+        <span asp-validation-for="Recipe.ImageUrl" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Vytvořit</button>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
