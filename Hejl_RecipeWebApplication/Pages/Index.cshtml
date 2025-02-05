@@ -4,7 +4,8 @@
 
 
 <p>
-    <a href="/Recipes/Create" class="btn btn-primary">Create New Recipe</a>
+    <a href="@Url.Page("/Recipes/Create")" class="btn btn-primary">Create New Recipe</a>
+
 </p>
 
 <div class="recipe-grid">
@@ -15,8 +16,8 @@
             <img src="@recipe.ImageUrl" alt="@recipe.Title" class="recipe-image" />
             <p>@recipe.Description</p>
             <div class="actions">
-                <a asp-page="./Edit" asp-route-id="@recipe.Id" class="btn btn-warning">Edit</a>
-                <a asp-page="./Delete" asp-route-id="@recipe.Id" class="btn btn-danger">Delete</a>
+                <a href="@Url.Page("/Recipes/Edit", new { id = recipe.Id })" class="btn btn-warning">Edit</a>
+                <a href="@Url.Page("/Recipes/Delete", new {id = recipe.Id})" class="btn btn-danger">Delete</a>
             </div>
         </div>
     }

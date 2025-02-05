@@ -1,14 +1,17 @@
-﻿@page
-@model Hejl_RecipeWebApplication.Pages.Recipes.CreateModel
+﻿@page "{id?}"
+@model Hejl_RecipeWebApplication.Pages.Recipes.EditModel
 
 @{
     Layout = "_Layout";
+    var title = Model.Recipe?.Id > 0 ? "Edit Recipe" : "Create Recipe";
 }
 
-<h2>Create Recipe</h2>
+<h2>@title</h2>
 
 <form method="post" asp-antiforgery="true">
     @Html.AntiForgeryToken()
+
+    <input type="hidden" asp-for="Recipe.Id" />
 
     <div>
         <label for="title">Recipe Title:</label>
@@ -40,7 +43,11 @@
         <span asp-validation-for="Recipe.ImageUrl" class="text-danger"></span>
     </div>
 
-    <button type="submit" class="btn btn-primary">Create Recipe</button>
+    <p>Recipe ID: @Model.Recipe?.Id</p>
+    <p>Recipe Title: @Model.Recipe?.Title</p>
+
+
+    <button type="submit" class="btn btn-warning">Save Changes</button>
 </form>
 
 @section Scripts {
