@@ -20,8 +20,8 @@ namespace Hejl_RecipeWebApplication.Pages.Recipes
 
         public async Task<IActionResult> OnGetAsync(int id)
         {
-
             Recipe = await _context.Recipes.FindAsync(id);
+            Console.WriteLine($"Loaded Recipe: {Recipe?.Title}");
 
             if (Recipe == null)
             {

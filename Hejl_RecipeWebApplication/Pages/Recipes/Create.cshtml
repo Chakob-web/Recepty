@@ -7,42 +7,89 @@
 
 <h2>Create Recipe</h2>
 
-<form method="post" asp-antiforgery="true">
+<form method="post" id="recipeForm" asp-antiforgery="true">
     @Html.AntiForgeryToken()
 
-    <div>
+    <input type="hidden" name="Id" value="@Model.Recipe?.Id" />
+
+    <div class="form-group">
         <label for="title">Recipe Title:</label>
-        <input type="text" asp-for="Recipe.Title" id="title" name="Title" class="form-control" placeholder="Enter recipe title" />
-        <span asp-validation-for="Recipe.Title" class="text-danger"></span>
+        <input type="text" id="title" name="Title" class="form-control" value="@Model.Recipe?.Title" placeholder="Enter recipe title" maxlength="100" />
+        <span id="titleError" class="text-danger" style="display:none;">Název je povinný.</span>
     </div>
 
-    <div>
+    <div class="form-group">
         <label for="description">Description:</label>
-        <textarea asp-for="Recipe.Description" id="description" name="Description" class="form-control" placeholder="Enter recipe description"></textarea>
-        <span asp-validation-for="Recipe.Description" class="text-danger"></span>
+        <textarea id="description" name="Description" class="form-control" placeholder="Enter recipe description"></textarea>
+        <span id="descriptionError" class="text-danger" style="display:none;">Popis je povinný.</span>
     </div>
 
-    <div>
+    <div class="form-group">
         <label for="ingredients">Ingredients:</label>
-        <textarea asp-for="Recipe.Ingredients" id="ingredients" name="Ingredients" class="form-control" placeholder="Enter ingredients"></textarea>
-        <span asp-validation-for="Recipe.Ingredients" class="text-danger"></span>
+        <textarea id="ingredients" name="Ingredients" class="form-control" placeholder="Enter ingredients"></textarea>
+        <span id="ingredientsError" class="text-danger" style="display:none;">Ingredience jsou povinné.</span>
     </div>
 
-    <div>
+    <div class="form-group">
         <label for="instructions">Instructions:</label>
-        <textarea asp-for="Recipe.Instructions" id="instructions" name="Instructions" class="form-control" placeholder="Enter instructions"></textarea>
-        <span asp-validation-for="Recipe.Instructions" class="text-danger"></span>
+        <textarea id="instructions" name="Instructions" class="form-control" placeholder="Enter instructions"></textarea>
+        <span id="instructionsError" class="text-danger" style="display:none;">Instrukce jsou povinné.</span>
     </div>
 
-    <div>
+    <div class="form-group">
         <label for="imageUrl">Image URL:</label>
-        <input type="text" asp-for="Recipe.ImageUrl" id="imageUrl" name="ImageUrl" class="form-control" placeholder="Enter image URL" />
-        <span asp-validation-for="Recipe.ImageUrl" class="text-danger"></span>
+        <input type="text" id="imageUrl" name="ImageUrl" class="form-control" value="@Model.Recipe?.ImageUrl" placeholder="Enter image URL" />
+        <span id="imageUrlError" class="text-danger" style="display:none;">Zadejte platnou URL adresu.</span>
     </div>
 
-    <button type="submit" class="btn btn-primary">Create Recipe</button>
+    <button type="submit" class="btn btn-warning">Save Changes</button>
 </form>
 
 @section Scripts {
-    <partial name="_ValidationScriptsPartial" />
+    <script>
+        document.getElementById("recipeForm").addEventListener("submit", function (event) {
+            let isValid = true;
+
+            if (!document.getElementById("title").value) {
+                document.getElementById("titleError").style.display = "block";
+                isValid = false;
+            } else {
+                document.getElementById("titleError").style.display = "none";
+            }
+
+            if (!document.getElementById("description").value) {
+                document.getElementById("descriptionError").style.display = "block";
+                isValid = false;
+            } else {
+                document.getElementById("descriptionError").style.display = "none";
+            }
+
+            if (!document.getElementById("ingredients").value) {
+                document.getElementById("ingredientsError").style.display = "block";
+                isValid = false;
+            } else {
+                document.getElementById("ingredientsError").style.display = "none";
+            }
+
+            if (!document.getElementById("instructions").value) {
+                document.getElementById("instructionsError").style.display = "block";
+                isValid = false;
+            } else {
+                document.getElementById("instructionsError").style.display = "none";
+            }
+
+            let imageUrl = document.getElementById("imageUrl").value;
+            let urlPattern = /^(ftp|http|https):\/\/[^ "]+$/;
+            if (imageUrl && !urlPattern.test(imageUrl)) {
+                document.getElementById("imageUrlError").style.display = "block";
+                isValid = false;
+            } else {
+                document.getElementById("imageUrlError").style.display = "none";
+            }
+
+            if (!isValid) {
+                event.preventDefault();
+            }
+        });
+    </script>
 }

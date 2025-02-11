@@ -16,8 +16,9 @@
             <img src="@recipe.ImageUrl" alt="@recipe.Title" class="recipe-image" />
             <p>@recipe.Description</p>
             <div class="actions">
-                <a href="@Url.Page("/Recipes/Edit", new { id = recipe.Id })" class="btn btn-warning">Edit</a>
-                <a href="@Url.Page("/Recipes/Delete", new {id = recipe.Id})" class="btn btn-danger">Delete</a>
+                <a href="@Url.Page("/Recipes/Edit", new { id = recipe.Id })" class="btn btn-edit">Edit</a>
+                <a href="@Url.Page("/Recipes/Delete", new {id = recipe.Id})" class="btn btn-delete">Delete</a>
+                <a href="@Url.Page("/Recipes/Detail", new { id = recipe.Id })" class="btn btn-detail">Detail</a>
             </div>
         </div>
     }
@@ -81,21 +82,31 @@
         background-color: #0056b3;
     }
 
-    .btn-warning {
+    .btn-edit {
         background-color: #ffc107;
         color: white;
     }
 
-    .btn-warning:hover {
+    .btn-edit:hover {
         background-color: #e0a800;
     }
 
-    .btn-danger {
+    .btn-delete {
         background-color: #dc3545;
         color: white;
     }
 
-    .btn-danger:hover {
+    .btn-delete:hover {
         background-color: #b02a37;
     }
+
+    .btn-detail {
+        background-color: #007bff;
+        color: white;
+    }
+
+    .btn-detail:hover {
+        background-color: #0056b3;
+    }
+
 </style>

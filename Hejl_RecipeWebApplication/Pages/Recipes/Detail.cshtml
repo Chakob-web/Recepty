@@ -1,0 +1,30 @@
+﻿@page "{id}"
+@model Hejl_RecipeWebApplication.Pages.Recipes.DetailModel
+
+@{
+    Layout = "_layout";
+}
+
+<h2>@Model.Recipe?.Title</h2>
+
+<div>
+    <h3>Description</h3>
+    <p>@Model.Recipe?.Description</p>
+</div>
+
+<div>
+    <h3>Ingredients</h3>
+    <p>@Model.Recipe?.Ingredients</p>
+</div>
+
+<div>
+    <h3>Instructions</h3>
+    <p>@Model.Recipe?.Instructions</p>
+</div>
+
+<div>
+    <h3>Image</h3>
+    <img src="@Model.Recipe?.ImageUrl" alt="Recipe Image" class="recipe-image" />
+</div>
+
+

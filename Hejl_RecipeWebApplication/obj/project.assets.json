@@ -6248,25 +6248,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\hejljakub\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\jakub\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hejljakub\\Desktop\\THE ONE\\Hejl_Recipe\\Hejl_RecipeWebApplication\\Hejl_RecipeWebApplication.csproj",
+      "projectUniqueName": "C:\\Users\\jakub\\Desktop\\THE ONEv2\\Recepty\\Hejl_RecipeWebApplication\\Hejl_RecipeWebApplication.csproj",
       "projectName": "Hejl_RecipeWebApplication",
-      "projectPath": "C:\\Users\\hejljakub\\Desktop\\THE ONE\\Hejl_Recipe\\Hejl_RecipeWebApplication\\Hejl_RecipeWebApplication.csproj",
-      "packagesPath": "C:\\Users\\hejljakub\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hejljakub\\Desktop\\THE ONE\\Hejl_Recipe\\Hejl_RecipeWebApplication\\obj\\",
+      "projectPath": "C:\\Users\\jakub\\Desktop\\THE ONEv2\\Recepty\\Hejl_RecipeWebApplication\\Hejl_RecipeWebApplication.csproj",
+      "packagesPath": "C:\\Users\\jakub\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jakub\\Desktop\\THE ONEv2\\Recepty\\Hejl_RecipeWebApplication\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\hejljakub\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jakub\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -6337,7 +6335,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
