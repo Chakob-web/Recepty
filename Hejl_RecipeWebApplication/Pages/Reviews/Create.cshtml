@@ -1,0 +1,9 @@
+﻿@page "{recipeId:int}"
+@model Hejl_RecipeWebApplication.Pages.Reviews.CreateModel
+@{
+    Layout = "_Layout";
+}
+
+<form method="post">
+    <input type="hidden" name="Review.RecipeId" value="@Model.Recipe?.Id" />
+</form>

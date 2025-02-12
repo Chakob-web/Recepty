@@ -1,10 +1,12 @@
 ﻿@page
 @model Hejl_RecipeWebApplication.Pages.IndexModel
-<h2>Recipes</h2>
+
+<h1>Recipe main page</h1>
 
 
 <p>
     <a href="@Url.Page("/Recipes/Create")" class="btn btn-primary">Create New Recipe</a>
+    <a href="@Url.Page("/Recipes/Index")" class="btn btn-primary">Recipe list</a>
 
 </p>
 
@@ -19,6 +21,8 @@
                 <a href="@Url.Page("/Recipes/Edit", new { id = recipe.Id })" class="btn btn-edit">Edit</a>
                 <a href="@Url.Page("/Recipes/Delete", new {id = recipe.Id})" class="btn btn-delete">Delete</a>
                 <a href="@Url.Page("/Recipes/Detail", new { id = recipe.Id })" class="btn btn-detail">Detail</a>
+                <a href="@Url.Page("/Reviews/Create", new { recipeId = recipe.Id })" class="btn btn-review">Review</a>
+
             </div>
         </div>
     }
@@ -107,6 +111,16 @@
 
     .btn-detail:hover {
         background-color: #0056b3;
+    }
+
+    .btn-review {
+        background-color: white;
+        border: solid black;
+        color: black;
+    }
+
+    .btn-review:hover {
+        background-color: navajowhite;
     }
 
 </style>
