@@ -7,7 +7,7 @@ namespace Hejl_RecipeWebApplication.Entities
     public class Review
     {
         public int Id { get; set; }
-
+        [Required]
         [Range(1, 5)]
         public int Rating { get; set; }
 
@@ -19,5 +19,9 @@ namespace Hejl_RecipeWebApplication.Entities
         public int RecipeId { get; set; }
 
         public virtual Recipe? Recipe { get; set; }
+
+        [Required]
+        [MaxLength(50)]
+        public string Author { get; set; } = "Guest";
     }
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Hejl_RecipeWebApplication")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8dc714d71695b207005e0bebd7b63e59e8b307e9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+128709d7961acbf3bec4ccdde3fb1956fa7511c7")]
 [assembly: System.Reflection.AssemblyProductAttribute("Hejl_RecipeWebApplication")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Hejl_RecipeWebApplication")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

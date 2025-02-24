@@ -20,7 +20,8 @@ namespace Hejl_RecipeWebApplication.Data
             modelBuilder.Entity<Recipe>()
                 .HasMany(r => r.Reviews)
                 .WithOne(rv => rv.Recipe)
-                .HasForeignKey(rv => rv.RecipeId);
+                .HasForeignKey(rv => rv.RecipeId)
+                .OnDelete(DeleteBehavior.Cascade);
 
             modelBuilder.Entity<Review>()
                 .HasOne(rv => rv.Recipe)

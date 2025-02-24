@@ -27,4 +27,41 @@
     <img src="@Model.Recipe?.ImageUrl" alt="Recipe Image" class="recipe-image" />
 </div>
 
+<div>
+    <h3>Reviews</h3>
+    @if (Model.Reviews.Any())
+    {
+        <ul>
+            @foreach (var review in Model.Reviews)
+            {
+                <li>
+                    <strong>@review.Author</strong> - <small>@review.CreatedAt.ToString("dd.MM.yyyy")</small><br />
+                    ⭐ @review.Rating / 5 <br />
+                    <p>@review.Comment</p>
+
+                    <a href="@Url.Page("/Reviews/Delete", new { id = review.Id })" class="btn btn-delete">Delete</a>
+                </li>
+            }
+        </ul>
+    }
+    else
+    {
+        <p>No reviews yet. Be the first to review!</p>
+    }
+</div>
+
+<style>
+    .btn-delete {
+        background-color: #dc3545;
+        color: white;
+        padding: 5px 10px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 0.9rem;
+    }
+
+        .btn-delete:hover {
+            background-color: #b02a37;
+        }
+</style>
 

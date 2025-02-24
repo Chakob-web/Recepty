@@ -2,10 +2,8 @@
 @model Hejl_RecipeWebApplication.Pages.IndexModel
 <h2>Recipes</h2>
 
-
 <p>
     <a href="@Url.Page("/Recipes/Create")" class="btn btn-primary">Create New Recipe</a>
-
 </p>
 
 <div class="recipe-grid">
@@ -19,6 +17,7 @@
                 <a href="@Url.Page("/Recipes/Edit", new { id = recipe.Id })" class="btn btn-edit">Edit</a>
                 <a href="@Url.Page("/Recipes/Delete", new {id = recipe.Id})" class="btn btn-delete">Delete</a>
                 <a href="@Url.Page("/Recipes/Detail", new { id = recipe.Id })" class="btn btn-detail">Detail</a>
+                <a href="@Url.Page("/Reviews/Create", new { recipeId = recipe.Id })" class="btn btn-review">Add Review</a>
             </div>
         </div>
     }
@@ -27,7 +26,7 @@
 <style>
     .recipe-grid {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         gap: 20px;
         margin-top: 20px;
     }
@@ -40,29 +39,30 @@
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     }
 
-    .recipe-card h3 {
-        font-size: 1.25rem;
-        margin-bottom: 10px;
-    }
+        .recipe-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover; 
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
 
-    .recipe-card img {
-        max-width: 100%;
-        height: auto;
-        border-radius: 8px;
-        margin-bottom: 10px;
-    }
+        .recipe-card h3 {
+            font-size: 1.25rem;
+            margin-bottom: 10px;
+        }
 
-    .recipe-card p {
-        font-size: 0.9rem;
-        color: #555;
-        margin-bottom: 10px;
-    }
+        .recipe-card p {
+            font-size: 0.9rem;
+            color: #555;
+            margin-bottom: 10px;
+        }
 
-    .recipe-card .actions {
-        display: flex;
-        justify-content: center;
-        gap: 10px;
-    }
+        .recipe-card .actions {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
 
     .btn {
         padding: 5px 10px;
@@ -78,35 +78,43 @@
         color: white;
     }
 
-    .btn-primary:hover {
-        background-color: #0056b3;
-    }
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
 
     .btn-edit {
         background-color: #ffc107;
         color: white;
     }
 
-    .btn-edit:hover {
-        background-color: #e0a800;
-    }
+        .btn-edit:hover {
+            background-color: #e0a800;
+        }
 
     .btn-delete {
         background-color: #dc3545;
         color: white;
     }
 
-    .btn-delete:hover {
-        background-color: #b02a37;
-    }
+        .btn-delete:hover {
+            background-color: #b02a37;
+        }
 
     .btn-detail {
         background-color: #007bff;
         color: white;
     }
 
-    .btn-detail:hover {
-        background-color: #0056b3;
+        .btn-detail:hover {
+            background-color: #0056b3;
+        }
+
+    .btn-review {
+        background-color: #28a745;
+        color: white;
     }
 
+        .btn-review:hover {
+            background-color: #218838;
+        }
 </style>
