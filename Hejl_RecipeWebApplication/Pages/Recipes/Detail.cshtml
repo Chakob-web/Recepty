@@ -5,7 +5,12 @@
     Layout = "_layout";
 }
 
-<h2>@Model.Recipe?.Title</h2>
+<h1>@Model.Recipe?.Title</h1>
+
+<div>
+    <h3>Created on</h3>
+    <p>@Model.Recipe.CreatedAt</p>
+</div>
 
 <div>
     <h3>Description</h3>

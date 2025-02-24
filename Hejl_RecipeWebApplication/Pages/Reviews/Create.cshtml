@@ -1,10 +1,16 @@
+<<<<<<< HEAD
 ﻿@page
 @model Hejl_RecipeWebApplication.Pages.Reviews.CreateModel
 
+=======
+﻿@page "{recipeId:int}"
+@model Hejl_RecipeWebApplication.Pages.Reviews.CreateModel
+>>>>>>> 469bafb5111b7e63040755ef74c1f1ac47e8d051
 @{
     Layout = "_Layout";
 }
 
+<<<<<<< HEAD
 <h2>Create Review</h2>
 
 <form method="post" id="reviewForm" asp-antiforgery="true">
@@ -62,3 +68,8 @@
         });
     </script>
 }
+=======
+<form method="post">
+    <input type="hidden" name="Review.RecipeId" value="@Model.Recipe?.Id" />
+</form>
+>>>>>>> 469bafb5111b7e63040755ef74c1f1ac47e8d051

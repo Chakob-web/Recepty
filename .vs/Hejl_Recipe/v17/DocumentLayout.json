@@ -1,12 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\jakub\\Desktop\\THE ONEv2\\Recepty\\",
+  "WorkspaceRootPath": "C:\\Users\\hejljakub\\Desktop\\the one beep\\Recepty\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{316C381C-497B-46C9-86DB-61741DA24657}|Hejl_RecipeWebApplication\\Hejl_RecipeWebApplication.csproj|c:\\users\\jakub\\desktop\\the onev2\\recepty\\hejl_recipewebapplication\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{316C381C-497B-46C9-86DB-61741DA24657}|Hejl_RecipeWebApplication\\Hejl_RecipeWebApplication.csproj|c:\\users\\hejljakub\\desktop\\the one beep\\recepty\\hejl_recipewebapplication\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{316C381C-497B-46C9-86DB-61741DA24657}|Hejl_RecipeWebApplication\\Hejl_RecipeWebApplication.csproj|solutionrelative:hejl_recipewebapplication\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{316C381C-497B-46C9-86DB-61741DA24657}|Hejl_RecipeWebApplication\\Hejl_RecipeWebApplication.csproj|c:\\users\\jakub\\desktop\\the onev2\\recepty\\hejl_recipewebapplication\\pages\\reviews\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{316C381C-497B-46C9-86DB-61741DA24657}|Hejl_RecipeWebApplication\\Hejl_RecipeWebApplication.csproj|solutionrelative:hejl_recipewebapplication\\pages\\reviews\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -92,6 +93,78 @@
     {
       "AbsoluteMoniker": "D:0:0:{316C381C-497B-46C9-86DB-61741DA24657}|Hejl_RecipeWebApplication\\Hejl_RecipeWebApplication.csproj|c:\\users\\jakub\\desktop\\the onev2\\recepty\\hejl_recipewebapplication\\migrations\\20250224220735_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{316C381C-497B-46C9-86DB-61741DA24657}|Hejl_RecipeWebApplication\\Hejl_RecipeWebApplication.csproj|solutionrelative:hejl_recipewebapplication\\migrations\\20250224220735_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{316C381C-497B-46C9-86DB-61741DA24657}|Hejl_RecipeWebApplication\\Hejl_RecipeWebApplication.csproj|c:\\users\\hejljakub\\desktop\\the one beep\\recepty\\hejl_recipewebapplication\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{316C381C-497B-46C9-86DB-61741DA24657}|Hejl_RecipeWebApplication\\Hejl_RecipeWebApplication.csproj|solutionrelative:hejl_recipewebapplication\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{316C381C-497B-46C9-86DB-61741DA24657}|Hejl_RecipeWebApplication\\Hejl_RecipeWebApplication.csproj|c:\\users\\hejljakub\\desktop\\the one beep\\recepty\\hejl_recipewebapplication\\pages\\reviews\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{316C381C-497B-46C9-86DB-61741DA24657}|Hejl_RecipeWebApplication\\Hejl_RecipeWebApplication.csproj|solutionrelative:hejl_recipewebapplication\\pages\\reviews\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{316C381C-497B-46C9-86DB-61741DA24657}|Hejl_RecipeWebApplication\\Hejl_RecipeWebApplication.csproj|c:\\users\\hejljakub\\desktop\\the one beep\\recepty\\hejl_recipewebapplication\\pages\\reviews\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{316C381C-497B-46C9-86DB-61741DA24657}|Hejl_RecipeWebApplication\\Hejl_RecipeWebApplication.csproj|solutionrelative:hejl_recipewebapplication\\pages\\reviews\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{316C381C-497B-46C9-86DB-61741DA24657}|Hejl_RecipeWebApplication\\Hejl_RecipeWebApplication.csproj|c:\\users\\hejljakub\\desktop\\the one beep\\recepty\\hejl_recipewebapplication\\pages\\recipes\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{316C381C-497B-46C9-86DB-61741DA24657}|Hejl_RecipeWebApplication\\Hejl_RecipeWebApplication.csproj|solutionrelative:hejl_recipewebapplication\\pages\\recipes\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{316C381C-497B-46C9-86DB-61741DA24657}|Hejl_RecipeWebApplication\\Hejl_RecipeWebApplication.csproj|c:\\users\\hejljakub\\desktop\\the one beep\\recepty\\hejl_recipewebapplication\\pages\\recipes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{316C381C-497B-46C9-86DB-61741DA24657}|Hejl_RecipeWebApplication\\Hejl_RecipeWebApplication.csproj|solutionrelative:hejl_recipewebapplication\\pages\\recipes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{316C381C-497B-46C9-86DB-61741DA24657}|Hejl_RecipeWebApplication\\Hejl_RecipeWebApplication.csproj|c:\\users\\hejljakub\\desktop\\the one beep\\recepty\\hejl_recipewebapplication\\pages\\recipes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{316C381C-497B-46C9-86DB-61741DA24657}|Hejl_RecipeWebApplication\\Hejl_RecipeWebApplication.csproj|solutionrelative:hejl_recipewebapplication\\pages\\recipes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{316C381C-497B-46C9-86DB-61741DA24657}|Hejl_RecipeWebApplication\\Hejl_RecipeWebApplication.csproj|c:\\users\\hejljakub\\desktop\\the one beep\\recepty\\hejl_recipewebapplication\\pages\\recipes\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{316C381C-497B-46C9-86DB-61741DA24657}|Hejl_RecipeWebApplication\\Hejl_RecipeWebApplication.csproj|solutionrelative:hejl_recipewebapplication\\pages\\recipes\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{316C381C-497B-46C9-86DB-61741DA24657}|Hejl_RecipeWebApplication\\Hejl_RecipeWebApplication.csproj|c:\\users\\hejljakub\\desktop\\the one beep\\recepty\\hejl_recipewebapplication\\pages\\recipes\\detail.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{316C381C-497B-46C9-86DB-61741DA24657}|Hejl_RecipeWebApplication\\Hejl_RecipeWebApplication.csproj|solutionrelative:hejl_recipewebapplication\\pages\\recipes\\detail.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{316C381C-497B-46C9-86DB-61741DA24657}|Hejl_RecipeWebApplication\\Hejl_RecipeWebApplication.csproj|c:\\users\\hejljakub\\desktop\\the one beep\\recepty\\hejl_recipewebapplication\\entities\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{316C381C-497B-46C9-86DB-61741DA24657}|Hejl_RecipeWebApplication\\Hejl_RecipeWebApplication.csproj|solutionrelative:hejl_recipewebapplication\\entities\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{316C381C-497B-46C9-86DB-61741DA24657}|Hejl_RecipeWebApplication\\Hejl_RecipeWebApplication.csproj|c:\\users\\hejljakub\\desktop\\the one beep\\recepty\\hejl_recipewebapplication\\pages\\recipes\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{316C381C-497B-46C9-86DB-61741DA24657}|Hejl_RecipeWebApplication\\Hejl_RecipeWebApplication.csproj|solutionrelative:hejl_recipewebapplication\\pages\\recipes\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{316C381C-497B-46C9-86DB-61741DA24657}|Hejl_RecipeWebApplication\\Hejl_RecipeWebApplication.csproj|c:\\users\\hejljakub\\desktop\\the one beep\\recepty\\hejl_recipewebapplication\\pages\\recipes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{316C381C-497B-46C9-86DB-61741DA24657}|Hejl_RecipeWebApplication\\Hejl_RecipeWebApplication.csproj|solutionrelative:hejl_recipewebapplication\\pages\\recipes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{316C381C-497B-46C9-86DB-61741DA24657}|Hejl_RecipeWebApplication\\Hejl_RecipeWebApplication.csproj|c:\\users\\hejljakub\\desktop\\the one beep\\recepty\\hejl_recipewebapplication\\pages\\recipes\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{316C381C-497B-46C9-86DB-61741DA24657}|Hejl_RecipeWebApplication\\Hejl_RecipeWebApplication.csproj|solutionrelative:hejl_recipewebapplication\\pages\\recipes\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{316C381C-497B-46C9-86DB-61741DA24657}|Hejl_RecipeWebApplication\\Hejl_RecipeWebApplication.csproj|c:\\users\\hejljakub\\desktop\\the one beep\\recepty\\hejl_recipewebapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{316C381C-497B-46C9-86DB-61741DA24657}|Hejl_RecipeWebApplication\\Hejl_RecipeWebApplication.csproj|solutionrelative:hejl_recipewebapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{316C381C-497B-46C9-86DB-61741DA24657}|Hejl_RecipeWebApplication\\Hejl_RecipeWebApplication.csproj|c:\\users\\hejljakub\\desktop\\the one beep\\recepty\\hejl_recipewebapplication\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{316C381C-497B-46C9-86DB-61741DA24657}|Hejl_RecipeWebApplication\\Hejl_RecipeWebApplication.csproj|solutionrelative:hejl_recipewebapplication\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{316C381C-497B-46C9-86DB-61741DA24657}|Hejl_RecipeWebApplication\\Hejl_RecipeWebApplication.csproj|c:\\users\\hejljakub\\desktop\\the one beep\\recepty\\hejl_recipewebapplication\\pages\\recipes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{316C381C-497B-46C9-86DB-61741DA24657}|Hejl_RecipeWebApplication\\Hejl_RecipeWebApplication.csproj|solutionrelative:hejl_recipewebapplication\\pages\\recipes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{316C381C-497B-46C9-86DB-61741DA24657}|Hejl_RecipeWebApplication\\Hejl_RecipeWebApplication.csproj|c:\\users\\hejljakub\\desktop\\the one beep\\recepty\\hejl_recipewebapplication\\pages\\recipes\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{316C381C-497B-46C9-86DB-61741DA24657}|Hejl_RecipeWebApplication\\Hejl_RecipeWebApplication.csproj|solutionrelative:hejl_recipewebapplication\\pages\\recipes\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{316C381C-497B-46C9-86DB-61741DA24657}|Hejl_RecipeWebApplication\\Hejl_RecipeWebApplication.csproj|c:\\users\\hejljakub\\desktop\\the one beep\\recepty\\hejl_recipewebapplication\\pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{316C381C-497B-46C9-86DB-61741DA24657}|Hejl_RecipeWebApplication\\Hejl_RecipeWebApplication.csproj|solutionrelative:hejl_recipewebapplication\\pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{316C381C-497B-46C9-86DB-61741DA24657}|Hejl_RecipeWebApplication\\Hejl_RecipeWebApplication.csproj|c:\\users\\hejljakub\\desktop\\the one beep\\recepty\\hejl_recipewebapplication\\pages\\shared\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{316C381C-497B-46C9-86DB-61741DA24657}|Hejl_RecipeWebApplication\\Hejl_RecipeWebApplication.csproj|solutionrelative:hejl_recipewebapplication\\pages\\shared\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+>>>>>>> 469bafb5111b7e63040755ef74c1f1ac47e8d051
     }
   ],
   "DocumentGroupContainers": [
@@ -101,7 +174,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 8,
+=======
+          "SelectedChildIndex": 6,
+>>>>>>> 469bafb5111b7e63040755ef74c1f1ac47e8d051
           "Children": [
             {
               "$type": "Bookmark",
@@ -109,6 +186,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 16,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\jakub\\Desktop\\THE ONEv2\\Recepty\\Hejl_RecipeWebApplication\\Pages\\Recipes\\Delete.cshtml",
@@ -118,10 +196,23 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-02-05T07:13:29.149Z"
+=======
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hejljakub\\Desktop\\the one beep\\Recepty\\Hejl_RecipeWebApplication\\Pages\\Recipes\\Index.cshtml",
+              "RelativeDocumentMoniker": "Hejl_RecipeWebApplication\\Pages\\Recipes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hejljakub\\Desktop\\the one beep\\Recepty\\Hejl_RecipeWebApplication\\Pages\\Recipes\\Index.cshtml",
+              "RelativeToolTip": "Hejl_RecipeWebApplication\\Pages\\Recipes\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-05T08:24:58.435Z",
+              "EditorCaption": ""
+>>>>>>> 469bafb5111b7e63040755ef74c1f1ac47e8d051
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+<<<<<<< HEAD
               "Title": "Detail.cshtml",
               "DocumentMoniker": "C:\\Users\\jakub\\Desktop\\THE ONEv2\\Recepty\\Hejl_RecipeWebApplication\\Pages\\Recipes\\Detail.cshtml",
               "RelativeDocumentMoniker": "Hejl_RecipeWebApplication\\Pages\\Recipes\\Detail.cshtml",
@@ -130,10 +221,21 @@
               "ViewState": "AgIAABgAAAAAAAAAAAAuwEEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-02-11T21:08:21.209Z",
+=======
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\hejljakub\\Desktop\\the one beep\\Recepty\\Hejl_RecipeWebApplication\\Pages\\Recipes\\Create.cshtml",
+              "RelativeDocumentMoniker": "Hejl_RecipeWebApplication\\Pages\\Recipes\\Create.cshtml",
+              "ToolTip": "C:\\Users\\hejljakub\\Desktop\\the one beep\\Recepty\\Hejl_RecipeWebApplication\\Pages\\Recipes\\Create.cshtml",
+              "RelativeToolTip": "Hejl_RecipeWebApplication\\Pages\\Recipes\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-05T07:40:20.598Z",
+>>>>>>> 469bafb5111b7e63040755ef74c1f1ac47e8d051
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 22,
               "Title": "20250224220735_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\jakub\\Desktop\\THE ONEv2\\Recepty\\Hejl_RecipeWebApplication\\Migrations\\20250224220735_InitialCreate.cs",
@@ -147,10 +249,26 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
+=======
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\hejljakub\\Desktop\\the one beep\\Recepty\\Hejl_RecipeWebApplication\\Program.cs",
+              "RelativeDocumentMoniker": "Hejl_RecipeWebApplication\\Program.cs",
+              "ToolTip": "C:\\Users\\hejljakub\\Desktop\\the one beep\\Recepty\\Hejl_RecipeWebApplication\\Program.cs",
+              "RelativeToolTip": "Hejl_RecipeWebApplication\\Program.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAUwEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T07:11:52.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+>>>>>>> 469bafb5111b7e63040755ef74c1f1ac47e8d051
               "Title": "Detail.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\jakub\\Desktop\\THE ONEv2\\Recepty\\Hejl_RecipeWebApplication\\Pages\\Recipes\\Detail.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\hejljakub\\Desktop\\the one beep\\Recepty\\Hejl_RecipeWebApplication\\Pages\\Recipes\\Detail.cshtml.cs",
               "RelativeDocumentMoniker": "Hejl_RecipeWebApplication\\Pages\\Recipes\\Detail.cshtml.cs",
-              "ToolTip": "C:\\Users\\jakub\\Desktop\\THE ONEv2\\Recepty\\Hejl_RecipeWebApplication\\Pages\\Recipes\\Detail.cshtml.cs",
+              "ToolTip": "C:\\Users\\hejljakub\\Desktop\\the one beep\\Recepty\\Hejl_RecipeWebApplication\\Pages\\Recipes\\Detail.cshtml.cs",
               "RelativeToolTip": "Hejl_RecipeWebApplication\\Pages\\Recipes\\Detail.cshtml.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAswBgAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -159,6 +277,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 1,
               "Title": "Create.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\jakub\\Desktop\\THE ONEv2\\Recepty\\Hejl_RecipeWebApplication\\Pages\\Reviews\\Create.cshtml.cs",
@@ -194,22 +313,39 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-05T07:11:52.268Z"
+=======
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\hejljakub\\Desktop\\the one beep\\Recepty\\Hejl_RecipeWebApplication\\Pages\\Recipes\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Hejl_RecipeWebApplication\\Pages\\Recipes\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\hejljakub\\Desktop\\the one beep\\Recepty\\Hejl_RecipeWebApplication\\Pages\\Recipes\\Index.cshtml.cs",
+              "RelativeToolTip": "Hejl_RecipeWebApplication\\Pages\\Recipes\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T08:24:55.265Z",
+              "EditorCaption": ""
+>>>>>>> 469bafb5111b7e63040755ef74c1f1ac47e8d051
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\jakub\\Desktop\\THE ONEv2\\Recepty\\Hejl_RecipeWebApplication\\Pages\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hejljakub\\Desktop\\the one beep\\Recepty\\Hejl_RecipeWebApplication\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "Hejl_RecipeWebApplication\\Pages\\Index.cshtml",
-              "ToolTip": "C:\\Users\\jakub\\Desktop\\THE ONEv2\\Recepty\\Hejl_RecipeWebApplication\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hejljakub\\Desktop\\the one beep\\Recepty\\Hejl_RecipeWebApplication\\Pages\\Index.cshtml",
               "RelativeToolTip": "Hejl_RecipeWebApplication\\Pages\\Index.cshtml",
+<<<<<<< HEAD
               "ViewState": "AgIAABIAAAAAAAAAAAAwwCoAAAAYAAAAAAAAAA==",
+=======
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+>>>>>>> 469bafb5111b7e63040755ef74c1f1ac47e8d051
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-02-05T07:41:04.845Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 10,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\jakub\\AppData\\Local\\Temp\\541d91b3-d227-4ed8-a4b6-19b2f93e3984_THE ONEv2.zip.984\\THE ONEv2\\Recepty\\Hejl_RecipeWebApplication\\Pages\\Recipes\\Index.cshtml",
@@ -231,10 +367,35 @@
               "ViewState": "AgIAAA8AAAAAAAAAAAAUwCAAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-24T22:29:31.252Z",
+=======
+              "DocumentIndex": 7,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "C:\\Users\\hejljakub\\Desktop\\the one beep\\Recepty\\Hejl_RecipeWebApplication\\Pages\\Recipes\\Detail.cshtml",
+              "RelativeDocumentMoniker": "Hejl_RecipeWebApplication\\Pages\\Recipes\\Detail.cshtml",
+              "ToolTip": "C:\\Users\\hejljakub\\Desktop\\the one beep\\Recepty\\Hejl_RecipeWebApplication\\Pages\\Recipes\\Detail.cshtml",
+              "RelativeToolTip": "Hejl_RecipeWebApplication\\Pages\\Recipes\\Detail.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-11T21:08:21.209Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\hejljakub\\Desktop\\the one beep\\Recepty\\Hejl_RecipeWebApplication\\Pages\\Reviews\\Create.cshtml",
+              "RelativeDocumentMoniker": "Hejl_RecipeWebApplication\\Pages\\Reviews\\Create.cshtml",
+              "ToolTip": "C:\\Users\\hejljakub\\Desktop\\the one beep\\Recepty\\Hejl_RecipeWebApplication\\Pages\\Reviews\\Create.cshtml",
+              "RelativeToolTip": "Hejl_RecipeWebApplication\\Pages\\Reviews\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-12T08:03:23.112Z",
+>>>>>>> 469bafb5111b7e63040755ef74c1f1ac47e8d051
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 2,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\jakub\\Desktop\\THE ONEv2\\Recepty\\Hejl_RecipeWebApplication\\Pages\\Reviews\\Delete.cshtml",
@@ -244,15 +405,69 @@
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-02-24T22:24:50.975Z",
+=======
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\hejljakub\\Desktop\\the one beep\\Recepty\\Hejl_RecipeWebApplication\\Pages\\Recipes\\Create.cshtml.cs",
+              "RelativeDocumentMoniker": "Hejl_RecipeWebApplication\\Pages\\Recipes\\Create.cshtml.cs",
+              "ToolTip": "C:\\Users\\hejljakub\\Desktop\\the one beep\\Recepty\\Hejl_RecipeWebApplication\\Pages\\Recipes\\Create.cshtml.cs",
+              "RelativeToolTip": "Hejl_RecipeWebApplication\\Pages\\Recipes\\Create.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T20:50:55.586Z",
+>>>>>>> 469bafb5111b7e63040755ef74c1f1ac47e8d051
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 18,
+=======
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\hejljakub\\Desktop\\the one beep\\Recepty\\Hejl_RecipeWebApplication\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Hejl_RecipeWebApplication\\Pages\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\hejljakub\\Desktop\\the one beep\\Recepty\\Hejl_RecipeWebApplication\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "Hejl_RecipeWebApplication\\Pages\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T07:06:49.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\hejljakub\\Desktop\\the one beep\\Recepty\\Hejl_RecipeWebApplication\\Pages\\Reviews\\Create.cshtml.cs",
+              "RelativeDocumentMoniker": "Hejl_RecipeWebApplication\\Pages\\Reviews\\Create.cshtml.cs",
+              "ToolTip": "C:\\Users\\hejljakub\\Desktop\\the one beep\\Recepty\\Hejl_RecipeWebApplication\\Pages\\Reviews\\Create.cshtml.cs",
+              "RelativeToolTip": "Hejl_RecipeWebApplication\\Pages\\Reviews\\Create.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T08:26:33.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\hejljakub\\Desktop\\the one beep\\Recepty\\Hejl_RecipeWebApplication\\Pages\\Recipes\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Hejl_RecipeWebApplication\\Pages\\Recipes\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\hejljakub\\Desktop\\the one beep\\Recepty\\Hejl_RecipeWebApplication\\Pages\\Recipes\\Edit.cshtml",
+              "RelativeToolTip": "Hejl_RecipeWebApplication\\Pages\\Recipes\\Edit.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-05T07:30:04.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+>>>>>>> 469bafb5111b7e63040755ef74c1f1ac47e8d051
               "Title": "Edit.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\jakub\\Desktop\\THE ONEv2\\Recepty\\Hejl_RecipeWebApplication\\Pages\\Recipes\\Edit.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\hejljakub\\Desktop\\the one beep\\Recepty\\Hejl_RecipeWebApplication\\Pages\\Recipes\\Edit.cshtml.cs",
               "RelativeDocumentMoniker": "Hejl_RecipeWebApplication\\Pages\\Recipes\\Edit.cshtml.cs",
-              "ToolTip": "C:\\Users\\jakub\\Desktop\\THE ONEv2\\Recepty\\Hejl_RecipeWebApplication\\Pages\\Recipes\\Edit.cshtml.cs",
+              "ToolTip": "C:\\Users\\hejljakub\\Desktop\\the one beep\\Recepty\\Hejl_RecipeWebApplication\\Pages\\Recipes\\Edit.cshtml.cs",
               "RelativeToolTip": "Hejl_RecipeWebApplication\\Pages\\Recipes\\Edit.cshtml.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAQwA8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -275,17 +490,26 @@
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "Recipe.cs",
+<<<<<<< HEAD
               "DocumentMoniker": "C:\\Users\\jakub\\Desktop\\THE ONEv2\\Recepty\\Hejl_RecipeWebApplication\\Entities\\Recipe.cs",
               "RelativeDocumentMoniker": "Hejl_RecipeWebApplication\\Entities\\Recipe.cs",
               "ToolTip": "C:\\Users\\jakub\\Desktop\\THE ONEv2\\Recepty\\Hejl_RecipeWebApplication\\Entities\\Recipe.cs",
               "RelativeToolTip": "Hejl_RecipeWebApplication\\Entities\\Recipe.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAqwAkAAAAAAAAAAAAAAA==",
+=======
+              "DocumentMoniker": "C:\\Users\\hejljakub\\Desktop\\the one beep\\Recepty\\Hejl_RecipeWebApplication\\Entities\\Recipe.cs",
+              "RelativeDocumentMoniker": "Hejl_RecipeWebApplication\\Entities\\Recipe.cs",
+              "ToolTip": "C:\\Users\\hejljakub\\Desktop\\the one beep\\Recepty\\Hejl_RecipeWebApplication\\Entities\\Recipe.cs",
+              "RelativeToolTip": "Hejl_RecipeWebApplication\\Entities\\Recipe.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+>>>>>>> 469bafb5111b7e63040755ef74c1f1ac47e8d051
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-11T20:05:28.755Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 8,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\jakub\\Desktop\\THE ONEv2\\Recepty\\Hejl_RecipeWebApplication\\Pages\\Recipes\\Edit.cshtml",
@@ -391,6 +615,65 @@
               "RelativeToolTip": "Hejl_RecipeWebApplication\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+=======
+              "DocumentIndex": 18,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\hejljakub\\Desktop\\the one beep\\Recepty\\Hejl_RecipeWebApplication\\Pages\\Shared\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Hejl_RecipeWebApplication\\Pages\\Shared\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\hejljakub\\Desktop\\the one beep\\Recepty\\Hejl_RecipeWebApplication\\Pages\\Shared\\_ViewImports.cshtml",
+              "RelativeToolTip": "Hejl_RecipeWebApplication\\Pages\\Shared\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-11T20:18:53.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\hejljakub\\Desktop\\the one beep\\Recepty\\Hejl_RecipeWebApplication\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Hejl_RecipeWebApplication\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\hejljakub\\Desktop\\the one beep\\Recepty\\Hejl_RecipeWebApplication\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Hejl_RecipeWebApplication\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-12T07:21:26.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Delete.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\hejljakub\\Desktop\\the one beep\\Recepty\\Hejl_RecipeWebApplication\\Pages\\Recipes\\Delete.cshtml.cs",
+              "RelativeDocumentMoniker": "Hejl_RecipeWebApplication\\Pages\\Recipes\\Delete.cshtml.cs",
+              "ToolTip": "C:\\Users\\hejljakub\\Desktop\\the one beep\\Recepty\\Hejl_RecipeWebApplication\\Pages\\Recipes\\Delete.cshtml.cs",
+              "RelativeToolTip": "Hejl_RecipeWebApplication\\Pages\\Recipes\\Delete.cshtml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T07:13:43.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\hejljakub\\Desktop\\the one beep\\Recepty\\Hejl_RecipeWebApplication\\Pages\\Recipes\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Hejl_RecipeWebApplication\\Pages\\Recipes\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\hejljakub\\Desktop\\the one beep\\Recepty\\Hejl_RecipeWebApplication\\Pages\\Recipes\\Delete.cshtml",
+              "RelativeToolTip": "Hejl_RecipeWebApplication\\Pages\\Recipes\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-05T07:13:29.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\hejljakub\\Desktop\\the one beep\\Recepty\\Hejl_RecipeWebApplication\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Hejl_RecipeWebApplication\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\hejljakub\\Desktop\\the one beep\\Recepty\\Hejl_RecipeWebApplication\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Hejl_RecipeWebApplication\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+>>>>>>> 469bafb5111b7e63040755ef74c1f1ac47e8d051
               "WhenOpened": "2025-02-11T20:38:50.754Z"
             }
           ]

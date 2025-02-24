@@ -1,9 +1,15 @@
 ﻿@page
 @model Hejl_RecipeWebApplication.Pages.IndexModel
-<h2>Recipes</h2>
+
+<h1>Recipe main page</h1>
 
 <p>
     <a href="@Url.Page("/Recipes/Create")" class="btn btn-primary">Create New Recipe</a>
+<<<<<<< HEAD
+=======
+    <a href="@Url.Page("/Recipes/Index")" class="btn btn-primary">Recipe list</a>
+
+>>>>>>> 469bafb5111b7e63040755ef74c1f1ac47e8d051
 </p>
 
 <div class="recipe-grid">
@@ -17,7 +23,12 @@
                 <a href="@Url.Page("/Recipes/Edit", new { id = recipe.Id })" class="btn btn-edit">Edit</a>
                 <a href="@Url.Page("/Recipes/Delete", new {id = recipe.Id})" class="btn btn-delete">Delete</a>
                 <a href="@Url.Page("/Recipes/Detail", new { id = recipe.Id })" class="btn btn-detail">Detail</a>
+<<<<<<< HEAD
                 <a href="@Url.Page("/Reviews/Create", new { recipeId = recipe.Id })" class="btn btn-review">Add Review</a>
+=======
+                <a href="@Url.Page("/Reviews/Create", new { recipeId = recipe.Id })" class="btn btn-review">Review</a>
+
+>>>>>>> 469bafb5111b7e63040755ef74c1f1ac47e8d051
             </div>
         </div>
     }
@@ -114,7 +125,20 @@
         color: white;
     }
 
+<<<<<<< HEAD
         .btn-review:hover {
             background-color: #218838;
         }
+=======
+    .btn-review {
+        background-color: white;
+        border: solid black;
+        color: black;
+    }
+
+    .btn-review:hover {
+        background-color: navajowhite;
+    }
+
+>>>>>>> 469bafb5111b7e63040755ef74c1f1ac47e8d051
 </style>
