@@ -19,7 +19,7 @@ namespace Hejl_RecipeWebApplication.Pages.Recipes
 
         public async Task OnGetAsync()
         {
-            Recipes = await _context.Recipes.ToListAsync();
+            Recipes = await _context.Recipes.Include(r => r.Reviews).ToListAsync();
         }
     }
 }

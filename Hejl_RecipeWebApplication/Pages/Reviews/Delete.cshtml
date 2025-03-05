@@ -18,5 +18,5 @@
     @Html.AntiForgeryToken()
     <input type="hidden" asp-for="Review.Id" />
     <button type="submit" class="btn btn-danger">Yes, Delete</button>
-    <a asp-page="/Recipes/Detail" asp-route-id="@Model.Review.RecipeId" class="btn btn-secondary">Cancel</a>
+    <a href="@Url.Page("/Recipes/Detail", new { id = Model.Review.RecipeId })" class="btn btn-secondary">Cancel</a>
 </form>

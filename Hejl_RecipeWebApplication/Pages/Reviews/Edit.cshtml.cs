@@ -1,4 +1,3 @@
-using System;
 using System.Linq;
 using System.Threading.Tasks;
 using Hejl_RecipeWebApplication.Data;
@@ -8,30 +7,27 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace Hejl_RecipeWebApplication.Pages.Reviews
 {
-    public class CreateModel : PageModel
+    public class EditModel : PageModel
     {
         private readonly ApplicationDbContext _context;
 
-        public CreateModel(ApplicationDbContext context)
+        public EditModel(ApplicationDbContext context)
         {
             _context = context;
         }
 
-        public Recipe? Recipe { get; private set; }
-
         [BindProperty]
         public Review Review { get; set; } = new Review();
 
-        public IActionResult OnGet(int recipeId)
+        public IActionResult OnGet(int id)
         {
-            Recipe = _context.Recipes.FirstOrDefault(r => r.Id == recipeId);
+            Review = _context.Reviews.FirstOrDefault(r => r.Id == id);
 
-            if (Recipe == null)
+            if (Review == null)
             {
                 return NotFound();
             }
 
-            Review.RecipeId = recipeId;
             return Page();
         }
 
@@ -42,16 +38,18 @@ namespace Hejl_RecipeWebApplication.Pages.Reviews
                 return Page();
             }
 
-            if (string.IsNullOrWhiteSpace(Review.Author))
+            var reviewInDb = _context.Reviews.FirstOrDefault(r => r.Id == Review.Id);
+            if (reviewInDb == null)
             {
-                Review.Author = "Guest";
+                return NotFound();
             }
 
-            Review.CreatedAt = DateTime.UtcNow;
-            _context.Reviews.Add(Review);
+            reviewInDb.Rating = Review.Rating;
+            reviewInDb.Comment = Review.Comment;
+
             await _context.SaveChangesAsync();
 
-            return RedirectToPage("/Index");
+            return RedirectToPage("/Recipes/Detail", new { id = reviewInDb.RecipeId});
         }
     }
 }

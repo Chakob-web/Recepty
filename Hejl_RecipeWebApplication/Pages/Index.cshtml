@@ -1,16 +1,35 @@
 ﻿@page
 @model Hejl_RecipeWebApplication.Pages.IndexModel
 
-<h1>Recipe main page</h1>
+@{
+    Layout = "_LayoutMain";
+    var bestRecipe = Model.Recipes.OrderByDescending(r => r.AverageRating).FirstOrDefault();
+}
 
-<p>
+@if (bestRecipe != null)
+{
+    <div class="best-recipe">
+        <h2>Best Rated Recipe</h2>
+        <div class="recipe-card large">
+            <h3 class="recipe-title">@bestRecipe.Title</h3>
+            <div class="recipe-content">
+                <div class="recipe-left">
+                    <img src="@bestRecipe.ImageUrl" alt="@bestRecipe.Title" class="recipe-image" />
+                    <div class="rating">
+                        <span>⭐ @bestRecipe.AverageRating.ToString("0.0")</span>
+                    </div>
+                </div>
+                <div class="recipe-right">
+                    <p>@bestRecipe.Description</p>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+<div class="button-container">
     <a href="@Url.Page("/Recipes/Create")" class="btn btn-primary">Create New Recipe</a>
-<<<<<<< HEAD
-=======
-    <a href="@Url.Page("/Recipes/Index")" class="btn btn-primary">Recipe list</a>
-
->>>>>>> 469bafb5111b7e63040755ef74c1f1ac47e8d051
-</p>
+</div>
 
 <div class="recipe-grid">
     @foreach (var recipe in Model.Recipes)
@@ -19,22 +38,78 @@
             <h3>@recipe.Title</h3>
             <img src="@recipe.ImageUrl" alt="@recipe.Title" class="recipe-image" />
             <p>@recipe.Description</p>
+            <div class="rating">
+                <span>⭐ @recipe.AverageRating.ToString("0.0")</span>
+            </div>
             <div class="actions">
-                <a href="@Url.Page("/Recipes/Edit", new { id = recipe.Id })" class="btn btn-edit">Edit</a>
-                <a href="@Url.Page("/Recipes/Delete", new {id = recipe.Id})" class="btn btn-delete">Delete</a>
                 <a href="@Url.Page("/Recipes/Detail", new { id = recipe.Id })" class="btn btn-detail">Detail</a>
-<<<<<<< HEAD
                 <a href="@Url.Page("/Reviews/Create", new { recipeId = recipe.Id })" class="btn btn-review">Add Review</a>
-=======
-                <a href="@Url.Page("/Reviews/Create", new { recipeId = recipe.Id })" class="btn btn-review">Review</a>
-
->>>>>>> 469bafb5111b7e63040755ef74c1f1ac47e8d051
+                <a href="@Url.Page("/Recipes/Edit", new { id = recipe.Id })" class="btn btn-edit">Edit</a>
+                <a href="@Url.Page("/Recipes/Delete", new { id = recipe.Id })" class="btn btn-delete">Delete</a>
             </div>
         </div>
     }
 </div>
 
 <style>
+    .best-recipe {
+        text-align: center;
+        margin: 40px auto;
+        max-width: 800px;
+    }
+
+    .recipe-card.large {
+        padding: 20px;
+        border: 2px solid #f39c12;
+        box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .recipe-title {
+        text-align: center;
+        font-size: 1.8rem;
+        margin-bottom: 15px;
+    }
+
+    .recipe-content {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .recipe-left {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .recipe-right {
+        flex: 2;
+        text-align: left;
+    }
+
+    .recipe-left img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+    }
+
+    .button-container {
+        display: flex;
+        justify-content: center;
+        margin: 20px 0;
+    }
+
+    .btn-primary {
+        background-color: #007bff;
+        color: white;
+        font-size: larger;
+        padding: 10px 20px;
+    }
+
     .recipe-grid {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
@@ -53,7 +128,7 @@
         .recipe-card img {
             width: 100%;
             height: 200px;
-            object-fit: cover; 
+            object-fit: cover;
             border-radius: 8px;
             margin-bottom: 10px;
         }
@@ -69,11 +144,18 @@
             margin-bottom: 10px;
         }
 
-        .recipe-card .actions {
-            display: flex;
-            justify-content: center;
-            gap: 10px;
-        }
+    .rating {
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: #f39c12;
+        margin-bottom: 10px;
+    }
+
+    .recipe-card .actions {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
 
     .btn {
         padding: 5px 10px;
@@ -84,10 +166,6 @@
         cursor: pointer;
     }
 
-    .btn-primary {
-        background-color: #007bff;
-        color: white;
-    }
 
         .btn-primary:hover {
             background-color: #0056b3;
@@ -125,20 +203,16 @@
         color: white;
     }
 
-<<<<<<< HEAD
         .btn-review:hover {
             background-color: #218838;
         }
-=======
-    .btn-review {
-        background-color: white;
-        border: solid black;
-        color: black;
+
+    .btn-list {
+        background-color: lightpink;
+        color: white;
     }
 
-    .btn-review:hover {
-        background-color: navajowhite;
-    }
-
->>>>>>> 469bafb5111b7e63040755ef74c1f1ac47e8d051
+        .btn-list:hover {
+            background-color: hotpink;
+        }
 </style>

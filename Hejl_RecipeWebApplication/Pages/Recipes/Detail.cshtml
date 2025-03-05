@@ -12,6 +12,11 @@
     <p>@Model.Recipe.CreatedAt</p>
 </div>
 
+<div class="img-container">
+    <h3>Image</h3>
+    <img src="@Model.Recipe?.ImageUrl" alt="Recipe Image" class="recipe-image" />
+</div>
+
 <div>
     <h3>Description</h3>
     <p>@Model.Recipe?.Description</p>
@@ -28,11 +33,6 @@
 </div>
 
 <div>
-    <h3>Image</h3>
-    <img src="@Model.Recipe?.ImageUrl" alt="Recipe Image" class="recipe-image" />
-</div>
-
-<div>
     <h3>Reviews</h3>
     @if (Model.Reviews.Any())
     {
@@ -45,6 +45,7 @@
                     <p>@review.Comment</p>
 
                     <a href="@Url.Page("/Reviews/Delete", new { id = review.Id })" class="btn btn-delete">Delete</a>
+                    <a href="@Url.Page("/Reviews/Edit", new { id = review.Id })" class="btn btn-edit">Edit</a>
                 </li>
             }
         </ul>
@@ -68,5 +69,29 @@
         .btn-delete:hover {
             background-color: #b02a37;
         }
+
+    .btn-edit {
+        background-color: cornflowerblue;
+        color: white;
+        padding: 5px 10px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 0.9rem;
+    }
+
+        .btn-edit:hover {
+            background-color: deepskyblue;
+        }
+
+    .img-container img {
+        display: flex;
+        justify-self: center;
+        width: 60%;
+        height: 480px;
+        object-fit: cover;
+        border-radius: 8px;
+        margin-bottom: 10px;
+    }
+
 </style>
 

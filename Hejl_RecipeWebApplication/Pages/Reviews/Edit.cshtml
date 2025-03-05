@@ -1,17 +1,18 @@
-﻿@page "{recipeId:int}"
-@model Hejl_RecipeWebApplication.Pages.Reviews.CreateModel
+﻿@page "{id:int}"
+@model Hejl_RecipeWebApplication.Pages.Reviews.EditModel
 
 @{
     Layout = "_Layout";
 }
 
-<h2>Create Review</h2>
+<h2>Edit Review</h2>
 
 <form method="post" id="reviewForm" asp-antiforgery="true">
     @Html.AntiForgeryToken()
 
-    <input type="hidden" name="Review.RecipeId" value="@Model.Recipe?.Id" />
-    <input type="hidden" name="Author" value="Guest" />
+    <input type="hidden" name="Review.Id" value="@Model.Review?.Id" />
+    <input type="hidden" name="Review.RecipeId" value="@Model.Review?.RecipeId" />
+    <input type="hidden" name="Review.Author" value="@Model.Review?.Author" />
 
     <div class="form-group">
         <label for="rating">Rating (1-5):</label>
@@ -21,11 +22,11 @@
 
     <div class="form-group">
         <label for="comment">Comment:</label>
-        <textarea id="comment" name="Review.Comment" class="form-control" placeholder="Enter your review"></textarea>
+        <textarea id="comment" name="Review.Comment" class="form-control">@Model.Review?.Comment</textarea>
         <span id="commentError" class="text-danger" style="display:none;">Komentář je povinný.</span>
     </div>
 
-    <button type="submit" class="btn btn-warning">Submit Review</button>
+    <button type="submit" class="btn btn-warning">Save Changes</button>
 </form>
 
 <style>
@@ -48,7 +49,7 @@
                 document.getElementById("ratingError").style.display = "none";
             }
 
-            if (!document.getElementById("comment").value) {
+            if (!document.getElementById("comment").value.trim()) {
                 document.getElementById("commentError").style.display = "block";
                 isValid = false;
             } else {

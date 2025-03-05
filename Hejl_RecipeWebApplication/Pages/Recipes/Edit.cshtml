@@ -42,12 +42,15 @@
         <input type="text" id="imageUrl" name="ImageUrl" class="form-control" value="@Model.Recipe?.ImageUrl" placeholder="Enter image URL" />
         <span id="imageUrlError" class="text-danger" style="display:none;">Zadejte platnou URL adresu.</span>
     </div>
-
-    <p>Recipe ID: @Model.Recipe?.Id</p>
-    <p>Recipe Title: @Model.Recipe?.Title</p>
-
     <button type="submit" class="btn btn-warning">Save Changes</button>
 </form>
+
+<style>
+    .btn-warning {
+        margin-left: 0px;
+        margin-top: 25px;
+    }
+</style>
 
 @section Scripts {
     <script>
